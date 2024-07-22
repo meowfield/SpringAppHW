@@ -14,6 +14,7 @@
 		9284B0572C4D4A8D0094E119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9284B0562C4D4A8D0094E119 /* Assets.xcassets */; };
 		9284B05A2C4D4A8D0094E119 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9284B0592C4D4A8D0094E119 /* Base */; };
 		9284B0682C4D4F2D0094E119 /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 9284B0672C4D4F2D0094E119 /* SpringAnimation */; };
+		9284B06A2C4EC35A0094E119 /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9284B0692C4EC35A0094E119 /* AnimationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9284B0562C4D4A8D0094E119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9284B0592C4D4A8D0094E119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9284B05B2C4D4A8D0094E119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9284B0692C4EC35A0094E119 /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		9284B0622C4D4B190094E119 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9284B0692C4EC35A0094E119 /* AnimationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9284B06A2C4EC35A0094E119 /* AnimationModel.swift in Sources */,
 				9284B0522C4D4A8C0094E119 /* ViewController.swift in Sources */,
 				9284B04E2C4D4A8C0094E119 /* AppDelegate.swift in Sources */,
 				9284B0502C4D4A8C0094E119 /* SceneDelegate.swift in Sources */,
